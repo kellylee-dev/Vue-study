@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!--클래스 바인딩 object로 사용-->
     <!--key값:text-red, value값: true-->
     <div :class="{'text-red': true}">Class Binding True</div>
     <div :class="{'text-red': false}">Class Binding Flase</div>
@@ -19,7 +20,7 @@ export default {
     return {
       isActive: false,
       hasError: false,
-      class2: ['active', 'hasError']
+      class2: ['active', 'hasError'] //배열로 할당가능
     }
   }
 }
