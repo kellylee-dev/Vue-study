@@ -41,7 +41,7 @@
 
 <script>
 // for문사용 => key를 잡아줘야함
-//         <option value=""></option> 이것을 추가하면 빈칸이 하나 생김
+// <option value=""></option> 이것을 추가하면 빈칸이 하나 생김
 export default {
   data () {
     return {

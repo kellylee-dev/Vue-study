@@ -10,7 +10,7 @@ export default {
   // vue에서는 function이라는 키워드를 만들 필요가없다
   data () {
     return {
-      userName: 'John Doe',
+      userName: 'kellylee0475',
       message: 'Welcome Kelly!'
     }
   }

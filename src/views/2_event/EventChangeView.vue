@@ -1,6 +1,7 @@
 <template>
   <div>
     <!--select생성: 첫번째 select에 따라서 두번째 select가 바뀌는 경우(이중셀렉트)-->
+   
     <!--첫번째 select-->
     <!--select한 값이 변경될때마다 changeCity호출-->
     <select name="" id="" @change="changeCity" v-model="selectedCity">

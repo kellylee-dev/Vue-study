@@ -4,8 +4,9 @@
     <router-link to="/about">About</router-link> |
     <router-link to="/databinding/string">String</router-link> |
     <router-link to="/databinding/html">Html</router-link>
+    <router-view/>
   </nav>
-  <router-view/>
+
 </template>
 
 <style>

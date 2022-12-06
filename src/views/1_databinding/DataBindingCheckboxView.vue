@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <!--모든체크박스에 v-model에 같은 key값인 favoriteLang을 넣는다. 그룹으로 묶인다-->
+      <!--모든 체크박스에 v-model에 같은 key값인 favoriteLang을 넣는다 => 그룹으로 묶인다-->
       <!--체크박스인 경우 v-model은 value값과 양방향데이터바인딩이 아니라 checked로 데이터바인딩이 된다(사용자가 value값을 변경하는 것이 아니라 checked값 true/false를 바꾼느 것이기때문에)-->
       <!--input이나 select은 value값과 양방향데이터 바인딩이다-->
       <input type="checkbox" name="" id="html" value="HTML" v-model="favoriteLang">
